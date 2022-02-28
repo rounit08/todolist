@@ -1,0 +1,57 @@
+* {
+  margin-top: 0;
+}
+.body {
+  background-color: rgba(0, 98, 255, 0.185);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  min-width: 300px;
+  flex-direction: column;
+}
+
+.bodyList {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(7, 7, 80);
+}
+
+.body_input {
+  margin-top: 150px;
+  margin-left: 100px;
+
+  align-items: center;
+  font-size: larger;
+  height: 60px;
+  width: 400px;
+  min-width: 300px;
+  background-color: rgb(245, 245, 109);
+  color: rgb(2, 2, 139);
+  border: 2px solid rgb(4, 4, 112);
+}
+
+.body_inputImage {
+  margin-top: 165px;
+  border-radius: 30%;
+  height: 30px;
+  width: 30px;
+  font-weight: 500;
+}
+.body_inputImage:hover {
+  background-color: green;
+}
+
+@media screen and(max-width: 600px) {
+  .body {
+    width: 300px;
+  }
+
+  .body_input {
+    width: 300px;
+    margin-left: 0px;
+  }
+}
